@@ -13,6 +13,7 @@
 		CC271135218D0A5E001D9E37 /* iWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC271133218D0A5E001D9E37 /* iWeather.xcdatamodeld */; };
 		CC271137218D0A5E001D9E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC271136218D0A5E001D9E37 /* Assets.xcassets */; };
 		CC27113A218D0A5E001D9E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC271138218D0A5E001D9E37 /* LaunchScreen.storyboard */; };
+		CC2711422190B14D001D9E37 /* WeatherDataSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2711412190B14D001D9E37 /* WeatherDataSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC271136218D0A5E001D9E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC271139218D0A5E001D9E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC27113B218D0A5E001D9E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2711412190B14D001D9E37 /* WeatherDataSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CC27112C218D0A5E001D9E37 /* AppDelegate.swift */,
 				CC27112E218D0A5E001D9E37 /* ViewController.swift */,
 				CC271130218D0A5E001D9E37 /* Main.storyboard */,
+				CC2711412190B14D001D9E37 /* WeatherDataSession.swift */,
 				CC271136218D0A5E001D9E37 /* Assets.xcassets */,
 				CC271138218D0A5E001D9E37 /* LaunchScreen.storyboard */,
 				CC27113B218D0A5E001D9E37 /* Info.plist */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC271135218D0A5E001D9E37 /* iWeather.xcdatamodeld in Sources */,
+				CC2711422190B14D001D9E37 /* WeatherDataSession.swift in Sources */,
 				CC27112F218D0A5E001D9E37 /* ViewController.swift in Sources */,
 				CC27112D218D0A5E001D9E37 /* AppDelegate.swift in Sources */,
 			);
